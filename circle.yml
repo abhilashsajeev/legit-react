@@ -1,0 +1,7 @@
+machine:
+  node:
+    version: 5.9.1
+test:
+  pre: 
+    - npm install react-dom
+    - npm install react
